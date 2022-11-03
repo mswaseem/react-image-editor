@@ -60,7 +60,7 @@ export default function RemoveBackground() {
       const image = document.getElementById("imageResult");
       const down = document.getElementById("down");
       image.src = blob;
-      down.href = blob;
+      down.href = "/#";
       down.download = "save.png";
     });
   };
